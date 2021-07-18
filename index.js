@@ -11,7 +11,7 @@ const port = process.env.PORT || 9000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect(um, {
+mongoose.connect(uri, {
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: false,
