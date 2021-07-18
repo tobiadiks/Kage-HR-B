@@ -4,7 +4,7 @@ var mongoose = require("mongoose");
 
 app = express();
 
-const uri = process.env.DB_CONNECT;
+const uri = "mongodb+srv://tobiadiks:tobiadiks@cluster0.wlwf0.mongodb.net/Users?retryWrites=true&w=majority";
 const um = "mongodb://127.0.0.1:27017/local";
 const port = process.env.PORT || 9000;
 
